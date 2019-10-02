@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+#header-img1 {
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    radial-gradient(circle,
+        hsla(0, 0%, 99%, 0.925), 
+        #000000fa
+        ),
+    /* bottom, image */
+    url(graduatingStudent.png);
+    border: 1px solid peru;
+}
+
+#header-img {
+    padding-right: 50%;
+
+}
+
+/*the z-index prevents the body elements to scroll on top of nav*/
+#nav-bar {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-bottom: 2%;
+    background: linear-gradient(to left, rgb(58, 88, 58), rgb(218, 211, 211), rgb(212, 212, 109), rgb(5, 80, 5));
+}
+
+.row1 {
+    margin-top: 90px;
+}
+
+.card-body {
+    height: auto;
+}
+
+#mposecTxt {
+    margin-bottom: 0px;
+    font-family: cursive;
+}
+
+#flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin-top: 2%;    
+}
+
+/*set width to 400px to wrap text*/
+.box {
+    background-color: white;
+    padding: 30px;
+    margin: 2px;   
+    width: 400px;       
+}
+
+#digitalBox {
+    padding-bottom: 10px;
+}
+
+#vidBg { 
+    background:
+    radial-gradient(circle,
+    hsla(0, 0%, 99%, 0.925), 
+    #000000fa
+    ),
+    /* bottom, image */
+    url(excurssionB.jpg);
+    border: 1px solid peru;
+}
+
+#video {
+    padding: 10%;
+    box-shadow: 10px 10px 5px #f8f3f3;;    
+}
+
+#vidText {   
+    padding-top: 17%;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.vidText {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.embed-responsive .embed-responsive-item, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    border: 0;
+}
+
+#per4manceContainer {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.cardMargin {
+    margin-left: 20%;
+}
+
+#formMgB {
+    margin-bottom: 0px;
+}
+
+#submit {
+    margin-top: 2px;
+    background: rgb(38, 61, 2);
+    border-radius: 15%;
+    padding: 0.6%;
+    color: white;
+}
+
+.submit {
+    margin-top: 5px;
+    background: rgb(38, 61, 2);
+    border-radius: 15%;
+    color: white;
+}
+
+#performance1Form {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#performance2Form {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    video {
+        margin-left: 40px;
+    }
+    .navbar-brand {
+        margin-right: 15rem;
+    }
+}
