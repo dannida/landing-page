@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="landingPage.css">
+<title>freecodecamp | Landing Page</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="header-img1">
+            <header id="header"> 
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end" id="nav-bar">
+                    <a class="navbar-brand">
+                        <img class="img-fluid" style="width: 40px;" src="MPOSEC logo.png" alt="School logo">
+                        <p class="navbar-text text-white align-bottom" id="mposecTxt">MPOSEC</p>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+                        <ul class="navbar-nav ml-auto font-weight-bold">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#row1">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#vidBg">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#per4manceContainer">WORK</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                               
+                <!--the row1 is a css class that gives a ninghty% top margin to the div-->            
+                <div class="row row1" id="row1">
+                    <!--text-center centers the text item in the col-->
+                    <div class="col-sm-4 tex-left">
+                        <h1 class="font-weight-bold text-white">YOUR</h>
+                        <p class="">CHILD'S SUCCESS</p>
+                        <p class="mb-0">BEGINS NOW</p>
+                        
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <!--z-depth-4 creates shadow on the card class-->
+                        <div class="card card-cascade wider z-depth-4">
+
+                            <div class="view view-cascade overlay z-depth-1-half">
+                                <img class="card-img-top rounded img-fluid" src="greenPath (2).jpg" alt="Card image">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+
+                            <div class="card-body card-body-cascade">
+                                <h4 class="card-title"><a>MPOSEC IS CALLING</a></h4>
+                                <p class="card-text">Register your ward for a path to a better future </p>
+                                <a href="#form" data-toggle="collapse" class="btn btn-danger">GET INFO</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-left" >                    
+                        <img class="img-fluid" src="https://i.imgur.com/uT3lnwX.png" title="source: imgur.com" alt="header imgae" id="header-img" />
+                    </div>
+                </div>
+                INSIDE HEADER
+            </header>
+           
+            <form action="https://www.freecodecamp.com/email-submit (https://www.freecodecamp.com/email-submit)" id="form" class="collapse">
+                <!--justify-content-center class centers the email form element-->
+                <div class="form-group row justify-content-center">
+                    <div class="col-auto ">
+                        <input class="form-control-lg" type="email" placeholder="Enter your email" name="email" id="email">
+                    </div>
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </div>
+        
+        <div id="flexContainer">
+            <div class="box" id="digitalBox">
+                <p class="font-weight-bold text-center">DIGITAL FOCUS FOR ENGAGEMENT</p>
+                <img class="img-fluid mx-auto d-block" src="techEdu1.png" alt="graduating cap">
+                <p class="text-justify">
+                    Help students engage and excel. Provide innovative instruction to empower students in today's
+                    digital world with an advanced certs.
+                </p>   
+            </div>
+            <div class="box" id="fitsYourLifeBox">
+                <p class="font-weight-bold text-center">EDUCATION THAT FITS YOUR CHILD'S LIFE</p>
+                <img class="img-fluid mx-auto d-block" src="clipArtForEdu1.png" alt="graduating cap">
+                <p class="text-justify">
+                    Our evironment provide the skills to make an immediate impact with
+                    flexible, personalised learning 
+                </p>
+            </div>
+            <div class="box" id="investBox">
+                <p class="font-weight-bold text-center">INVEST IN YOUR CHILD'S LIFE</p>
+                <img class="img-fluid mx-auto d-block" src="graduatingCap.png" alt="graduating cap">
+                <p class="text-justify">
+                    Reap the rewards of advanced teaching and save with scholarships, transfer credits and 
+                    professional development. Get support and career guidance to help you reach your potential.
+                </p>
+            </div>
+        </div>
+        
+            <div class="row" id="vidBg">
+                <div class="col-sm-6 text-center">
+                    <p class="font-weight-bold text-white" id="vidText">THE MOST</p>
+                    <p class="font-weight-bold text-white vidText">Natural Environment</p>
+                    <p class="font-weight-bold text-white vidText"> For Self Fufilment</p>
+                    <a href="#vidForm" data-toggle="collapse" class="btn btn-danger">GET INFO</a>
+
+                    <form action="https://www.freecodecamp.com/email-submit (https://www.freecodecamp.com/email-submit)" id="vidForm" class="collapse">
+                        <!--justify-content-center class centers the email form element-->
+                        <div class="form-group row justify-content-center" id="formMgB">
+                            <div class="col-auto ">
+                                <input class="form-control-lg" type="email" placeholder="Enter your email" name="email">
+                            </div>
+                            <input type="submit" value="Submit" class="submit" name="email">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="embed-responsive embed-responsive-16by9" id="padVid">                       
+                        <video class="embed-responsive-item z-depth-1" src="campusOverview.mp4" id="video" width="243" height="143" controls></video>
+                        <div class="mask rgba-white-slight"></div>
+                    </div>
+                
+                </div>               
+    
+            </div>
+
+        <div class="row" id="per4manceContainer">
+            <div class="col-sm-4 text-center per4manceBox">
+                
+                <div class="card h-70 w-50 card-cascade wider z-depth-4 cardMargin">
+
+                    <div class="view view-cascade overlay z-depth-1-half ">
+                        <img class="card-img-top rounded img-fluid" src="Gold-badge.png" alt="Card image">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <div class="card-body card-body-cascade">
+                        <h4 class="card-title text-center">PASSES IN ENGLISH</h4>
+                        <p class="card-text"></p>  
+                        <a href="#performance1Form" data-toggle="collapse"  class="btn btn-danger">GET INFO</a>              
+                    </div>
+
+                </div>
+                <form action="https://www.freecodecamp.com/email-submit (https://www.freecodecamp.com/email-submit)" id="performance1Form" class="collapse">
+                    <!--justify-content-center class centers the email form element-->
+                    <div class="form-group row justify-content-center" id="formMgB">
+                        <div class="col-auto ">
+                            <input class="form-control-lg" type="email" placeholder="Enter your email" name="email">
+                        </div>
+                        <input type="submit" value="Submit" class="submit">
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-sm-4 text-center per4manceBox">
+                
+                <div class="card h-70 w-50 card-cascade wider z-depth-4 cardMargin">
+
+                    <div class="view view-cascade overlay z-depth-1-half">
+                        <img class="card-img-top rounded img-fluid" src="Gold-badge95.png" alt="Card image">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <div class="card-body card-body-cascade">
+                        <h4 class="card-title text-center">PASSES IN MATHEMATICS</h4>
+                        <p class="card-text"></p>                
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-4 text-center per4manceBox">
+                
+                <div class="card h-70 w-50 card-cascade wider z-depth-4 cardMargin">
+
+                    <div class="view view-cascade overlay z-depth-1-half">
+                        <img class="card-img-top rounded img-fluid" src="Gold-badge.png" alt="Card image">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <div class="card-body card-body-cascade">
+                        <h4 class="card-title text-center">PASSES IN SCIENCES</h4>
+                        <p class="card-text"></p> 
+                        <a href="#performance2Form" data-toggle="collapse" class="btn btn-danger">GET INFO</a>               
+                    </div>
+
+                </div>
+                <form action="https://www.freecodecamp.com/email-submit (https://www.freecodecamp.com/email-submit)" id="performance2Form" class="collapse">
+                    <!--justify-content-center class centers the email form element-->
+                    <div class="form-group row justify-content-center" id="formMgB">
+                        <div class="col-auto ">
+                            <input class="form-control-lg" type="email" placeholder="Enter your email" name="email">
+                        </div>
+                        <input type="submit" value="Submit" class="submit">
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </div>
+
+    <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+</body>
+</html>
